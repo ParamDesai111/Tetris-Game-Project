@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Add styles for the game container */
+.game-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+canvas {
+    border: 1px solid white;
+}
+
+/* Style the score div */
+#score {
+    margin-left: 20px; /* Adjust the margin as needed to position the score */
+    color: white;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+}
